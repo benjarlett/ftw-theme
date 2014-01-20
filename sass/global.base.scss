@@ -148,7 +148,7 @@ a:active {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0 0 0;
+  margin: 0 0 0 0;
   line-height: 1.5em;
 }
 
@@ -851,10 +851,11 @@ line-height: 1.5em;
 #main-content{
   font-size: 1.1433em;
   line-height: 1.5em;
-  background-color: #eee;
+  background-color: #f6f6f6;
   max-width: 35em;
   padding:1em;
   margin: 1em;
+  border-radius: $rounded-corner;
   
 }
 
@@ -899,6 +900,35 @@ footer{
       }
       margin-bottom: 0;
     }
+  }
+}
+
+/*front page arrow*/
+.front #block-system-main {
+  margin-bottom: 0;
+  #node-114{
+  margin-bottom: 0;
+  }
+}
+#frontpagearrow{
+  text-align: center;
+  .content{
+    border: 3px solid #AFB4FC;
+    border-radius: $rounded-corner;
+    color: #911F1C;
+    margin: 0.5em 0 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+      h2{
+      margin: 0;
+      padding:3px;
+      }  
+    }
+  #arrow{   
+    position: relative; 
+    top: -4px; 
+    margin: 0 auto;
   }
 }
 
