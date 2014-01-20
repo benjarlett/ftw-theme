@@ -148,37 +148,43 @@ a:active {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0.67em 0 0 0;
+  line-height: 1.5em;
 }
 
 
 h2 {
   font-size: 1.5em;
-  margin: 0.83em 0;
+  margin: 0.83em 0 0 0;
+      line-height: 1.5em;
 }
 
 
 h3 {
   font-size: 1.17em;
-  margin: 1em 0;
+  margin: 1em 0 0 0 ;
+      line-height: 1.5em;
 }
 
 
 h4 {
   font-size: 1em;
-  margin: 1.33em 0;
+  margin: 1.33em 0 0 0;
+      line-height: 1.5em;
 }
 
 
 h5 {
   font-size: 0.83em;
-  margin: 1.67em 0;
+  margin: 1.67em 0 0 0;
+      line-height: 1.5em;
 }
 
 
 h6 {
   font-size: 0.75em;
-  margin: 2.33em 0;
+  margin: 2.33em 0 0 0;
+      line-height: 1.5em;
 }
 
 
@@ -706,31 +712,53 @@ header[role=banner],
     Ben's Customisations
    ========================================================================== */
 
-/*toplines - to create the 100% width horisontal lines in header*/
-#toplines{
-  position: absolute;
-  width: 100%;
-  border-bottom: solid 1px #911F1C;
-  height:200px;
-}
+
 /* header */
 
 #header{
+  border-top: solid 1px #911F1C;
+  border-bottom: solid 1px #911F1C;
+    background:url('../images/ftw-background.png') no-repeat top center;
+    background-size: 398px 292px;
 
-    background:url('../images/ftw-background.png') no-repeat top left;
-        background-size: 1140px 200px;
-	#branding{
-	width:164px;
-	float:left;}
-	
-	#logo{
-	text-align:center;
-	}
-	
-	.region-header{
-	width:200px;
-	float:right;
-	}	
+  .inner{
+    
+    height:200px;
+    position: relative;
+
+  	#branding{
+  	width:164px;
+  	float:left;
+    margin-right: 0;
+  	
+      #logo{
+        text-align:center;
+        a{
+          position: absolute;
+          width: 176px;
+          height: 186px;
+          top:3px;
+          border: solid 2px transparent;
+          left: 0;
+          padding:3px;
+        }
+        a:hover{
+          background: none;
+          border: solid 2px #4e40c8;}
+  	   }
+      #name-and-slogan{
+        position: absolute;
+        left: 7px;
+        top:128px;
+        width: 170px;
+
+      }
+    }
+  	.region-header{
+  	width:200px;
+  	float:right;
+  	}	
+  }
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -740,9 +768,11 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   #header{
-    background:url('../images/ftw-background2x.png') no-repeat top left;
-        background-size: 1140px 200px;
-
+      background:url('../images/ftw-background2x.png') no-repeat top center;
+      background-size: 398px 292px;
+    .inner{
+    height:200px;
+    }
   }
 }
 #site-slogan{color: #E4332C;
@@ -754,24 +784,36 @@ line-height: 1.5em;
 }
 #block-user-login{
   margin-bottom: 0;
+  .form-item-name, .form-item-pass, .form-actions{
+    margin: 12px 0;
+  }
 }
 /*menu bar*/
 #menu-bar{
+
+  border-bottom: solid 1px #911F1C;
   margin: 0;
   #block-superfish-1{
+    font-size: 1.428em;
     margin: 0;
     .sf-menu.sf-style-white {
       li{
         background: none;
         a{
           border: none;
+          padding: 0.5em 1em;
         }
+        a:hover, a:active, a:focus, span.nolink:hover{
+          background:#4e40c8;
+          color: #fff;
+          }
 
         li{
           background: none;
           a{
           border: none;
           }
+          
           li{
             background: none;
           a{
@@ -782,21 +824,92 @@ line-height: 1.5em;
         }
       }
     }
-    
+    div.sf-accordion-toggle.sf-style-white{
+          height: 3em;
+    margin: 0;
+    position: relative;
+    top: 0;
+      a{
+    display: block;
+        padding: 1em;
+        margin: 0;
+        border: none;
+        color: #fff;
+        background: none repeat scroll 0 0 #911F1C;
+      }
+      a.sf-expanded, .li.sf-expanded > a, li.sf-expanded > span.nolink {
+      font-weight: normal;
+      }
+      a:hover{
+      background: #4e40c8;
+      }
+    }
   }
 }
-/* footer menu */
-#block-superfish-2{
-	.block-title{ position: absolute; top: -99999em; width: 1px; height: 1px; overflow: hidden; outline: 0;
-	}
+
+/*main content*/
+#main-content{
+  font-size: 1.1433em;
+  line-height: 1.5em;
+  background-color: #eee;
+  max-width: 35em;
+  padding:1em;
+  margin: 1em;
+  
 }
 
 /* login menu */
-#block-user-login h2{
-position: absolute;
-top: -99999em;
-width: 1px;
-height: 1px;
-overflow: hidden;
-outline: 0;
+#block-user-login{
+  h2{
+  position: absolute;
+  top: -99999em;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  outline: 0;
+  }
+  #user-login-form{
+    ul{
+      margin: 0;
+      padding: 0;
+      li{
+        list-style: none;
+        margin: 0;
+      }
+    }
+  }
+}
+
+/* footer menu */
+footer{
+  background: #911F1C;
+  color: #fff;
+  a, a.active{
+    color: #fff;
+
+  }
+
+  a:hover{
+    background: #4e40c8;
+
+  }
+  .region{
+    #block-superfish-2{
+      .block-title{ position: absolute; top: -99999em; width: 1px; height: 1px; overflow: hidden; outline: 0; 
+      }
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*faq*/
+.view-id-faq{
+  ul {
+    li {
+      a{
+        display: block;
+        padding: 2px;
+      }
+    }
+  }
 }

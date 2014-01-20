@@ -16,3 +16,26 @@
 html {
   font-size: 112.5%; 
 }
+#toplines{
+	border: none;
+}
+#skip-link {
+	margin-left: 0px;
+	text-align: center;
+	position: relative;
+	ul{
+		li{
+			display: inline-block;
+		}
+	}
+}
+#header {
+	background: none;
+	#branding {
+		#logo a {
+	    top: 60px;
+		}
+		#name-and-slogan {
+		top: 182px}
+	}
+}

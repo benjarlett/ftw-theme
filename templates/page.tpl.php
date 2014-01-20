@@ -94,6 +94,7 @@
   <?php print render($page['leaderboard']); ?>
 
   <header<?php print $header_attributes; ?>>
+    <div class="inner">
 
     <?php if ($site_logo || $site_name || $site_slogan): ?>
       <!-- start: Branding -->
@@ -120,11 +121,12 @@
           </hgroup><!-- /end #name-and-slogan -->
         <?php endif; ?>
 
-      </div><!-- /end #branding -->
+      </div></a><!-- /end #branding -->
     <?php endif; ?>
 
     <!-- region: Header -->
     <?php print render($page['header']); ?>
+    </div>
 
   </header>
 

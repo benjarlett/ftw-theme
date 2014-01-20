@@ -7,3 +7,9 @@
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/responsive\.desktop\.scss}line{font-family:\0000316}}
+#header .inner, #menu-bar, #columns, #footer .region {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}

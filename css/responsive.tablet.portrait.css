@@ -10,5 +10,10 @@
 /* Increase the body font size on small devices */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/responsive\.tablet\.portrait\.scss}line{font-family:\0000316}}
 html {
-  font-size: 81.3%;
+  font-size: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/responsive\.tablet\.portrait\.scss}line{font-family:\0000321}}
+#header .inner {
+  background: none;
 }

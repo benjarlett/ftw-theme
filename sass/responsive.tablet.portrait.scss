@@ -14,5 +14,11 @@
 
 /* Increase the body font size on small devices */
 html {
-  font-size: 81.3%; 
+  font-size: 100%; 
+}
+
+#header {
+	.inner{
+		background: none;
+	}
 }

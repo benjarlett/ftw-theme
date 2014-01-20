@@ -12,3 +12,36 @@
 html {
   font-size: 112.5%;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000319}}
+#toplines {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000322}}
+#skip-link {
+  margin-left: 0px;
+  text-align: center;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000327}}
+#skip-link ul li {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000332}}
+#header {
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000333}}
+#header .inner {
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000338}}
+#header #branding #logo a {
+  top: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000341}}
+#header #branding #name-and-slogan {
+  top: 182px;
+}

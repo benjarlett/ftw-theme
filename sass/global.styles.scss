@@ -45,6 +45,7 @@ html {
 body {
   font-family: $sans-serif-small; // Set from _custom.scss font variables
   font-size: 87.5%;
+      line-height: 1.5em;
 }
 
 
@@ -155,7 +156,9 @@ position:relative;
 }
 
 #page  {
-  .container {}
+  .container {
+    background: #fff;
+  }
 }
 
 
@@ -365,7 +368,6 @@ position:relative;
  * The main page title (h1)
  */
 #page-title {
-  margin: 0;
 }
 
 
@@ -875,13 +877,13 @@ ul.pager li {
  * ========================================================================== */
 
 #skip-link {
-  left: 180px;
-  margin-left: 0;
-  margin-top: 0;
-  padding: 0 0.5em;
-  position: absolute;
-  z-index: 50;
   font-size: 0.8em;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 50;
 	ul{
 	padding:0;
 	margin:0;
@@ -900,7 +902,7 @@ ul.pager li {
 			    &:visited {
 			      display: inline-block;
 			      line-height: 2;
-			      padding: 0;
+			      padding: 2px;
 			      text-align: center;
 			    }
 			    &:hover,
