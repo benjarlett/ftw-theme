@@ -22,3 +22,22 @@ html {
 		background: none;
 	}
 }
+.region-sidebar-first .region-inner {
+    margin: 0 0.5em 0 1em;
+}
+.region-sidebar-second .region-inner {
+    margin: 0 1em 0 0.5em;
+}
+.region-sidebar-second .block {
+	width: auto;
+}
+#content-column{
+		text-align: center;
+		.content-inner{
+	    	display: inline-block;
+	    	text-align: left;
+	    	margin: 0 auto;
+		}	
+	}
+.region-sidebar-first, .region-sidebar-second {
+    margin-top: 0px;}

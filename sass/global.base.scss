@@ -791,14 +791,16 @@ line-height: 1.5em;
 /*menu bar*/
 #menu-bar{
 
-  border-bottom: solid 1px #911F1C;
-  margin: 0;
+text-align: center;  margin: 0;
   #block-superfish-1{
     font-size: 1.428em;
     margin: 0;
+    display: inline-block;
+      border-bottom: solid 1px #911F1C;
+
     .sf-menu.sf-style-white {
       li{
-        background: none;
+        background: #fff;
         a{
           border: none;
           padding: 0.5em 1em;
@@ -809,20 +811,36 @@ line-height: 1.5em;
           }
 
         li{
-          background: none;
+          background: #fff;
+          border-left: 1px solid #911F1C;
+          border-right: 1px solid #911F1C;
+          border-top: 0px solid #fff;
+          border-bottom: 1px solid #fff;
           a{
           border: none;
           }
           
           li{
-            background: none;
+            background: #ddd;
           a{
           border: none;
             }
 
           }
+          
         }
+        li.last, li.firstandlast{
+
+          border-bottom: 1px solid #911F1C;
+
+          }
       }
+    }
+    .sf-menu li:hover > ul, .sf-menu li.sfHover > ul {
+    left: 0;
+    top: 3.5em;}
+    a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
+    top: 2.5em;
     }
     div.sf-accordion-toggle.sf-style-white{
           height: 3em;
@@ -849,14 +867,31 @@ line-height: 1.5em;
 
 /*main content*/
 #main-content{
-  font-size: 1.1433em;
   line-height: 1.5em;
   background-color: #f6f6f6;
-  max-width: 35em;
   padding:1em;
   margin: 1em;
   border-radius: $rounded-corner;
   
+}
+#columns{
+
+  font-size: 1.1433em;}
+
+#content-column .content-inner{
+    max-width: 40em;} /*prevent  more than 80 chars per line*/
+
+/*messages*/
+#messages {
+  margin:1em;
+  text-align: center;
+  .messages{
+    text-align: left;
+    margin: 0;
+    display: block;
+
+  border-radius: $rounded-corner;
+  }
 }
 
 /* login menu */
@@ -881,6 +916,30 @@ line-height: 1.5em;
   }
 }
 
+/*sidebars*/
+.sidebar {
+  .region-inner{
+    .block{
+    background-color: #F6F6F6;
+    border-radius: 0.25em;
+    line-height: 1.5em;
+    padding: 1em;
+    .block-inner{
+      margin:0;
+      }
+    }
+  }
+}
+.region-sidebar-first{
+  .region-inner{
+    margin: 1em 0 1em 1em;
+  }
+}
+.region-sidebar-second{
+  .region-inner{
+    margin: 1em 1em 1em 0;
+  }
+}
 /* footer menu */
 footer{
   background: #911F1C;
@@ -899,6 +958,7 @@ footer{
       .block-title{ position: absolute; top: -99999em; width: 1px; height: 1px; overflow: hidden; outline: 0; 
       }
       margin-bottom: 0;
+      display:inline-block;
     }
   }
 }

@@ -138,9 +138,7 @@
   <!-- Breadcrumbs -->
   <?php if ($breadcrumb): print $breadcrumb; endif; ?>
 
-  <!-- Messages and Help -->
-  <?php print $messages; ?>
-  <?php print render($page['help']); ?>
+  
 
   <!-- region: Secondary Content -->
   <?php print render($page['secondary_content']); ?>
@@ -150,6 +148,9 @@
       <div class="content-inner">
 
         <!-- region: Highlighted -->
+        <!-- Messages and Help -->
+        <?php print $messages; ?>
+        <?php print render($page['help']); ?>
         <?php print render($page['highlighted']); ?>
 
         <<?php print $tag; ?> id="main-content">

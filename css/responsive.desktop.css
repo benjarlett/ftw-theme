@@ -8,9 +8,24 @@
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/responsive\.desktop\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/responsive\.desktop\.scss}line{font-family:\0000314}}
 #header .inner, #menu-bar, #columns, #footer .region {
   max-width: 1140px;
   margin: 0 auto;
   position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/responsive\.desktop\.scss}line{font-family:\0000320}}
+.no-sidebars .container {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/responsive\.desktop\.scss}line{font-family:\0000322}}
+.no-sidebars .container #header {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/responsive\.desktop\.scss}line{font-family:\0000325}}
+.no-sidebars .container #columns {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
 }

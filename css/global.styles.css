@@ -32,12 +32,12 @@
  * element. If you need to set default font properties of any kind use the BODY
  * element as these can be overridden using font theme settings.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\0000341}}
 html {
   background: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\0000345}}
 body {
   font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 87.5%;
@@ -47,7 +47,7 @@ body {
 /* =============================================================================
  *   HTML Elements
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003141}}
 pre,
 code,
 tt,
@@ -64,12 +64,12 @@ var {
  * Page wrapper, includes the .container class which sets the overall page or section width
  * Main wrapper in page.tpl.php, the .container class sets the width of the page, do not add width to it!
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003154}}
 #main.container {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003159}}
 #page .container {
   background: #fff;
 }
@@ -111,7 +111,7 @@ var {
 /*
  * Wraps the header
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003234}}
 #header-wrapper {
   /* Debug styles, is this working */
   background: rgba(255, 192, 203, 0.5);
@@ -138,7 +138,7 @@ var {
 /*
  * Footer wrapper
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003292}}
 #footer-wrapper {
   /* Debug styles, is this working? */
   background: rgba(255, 192, 203, 0.5);
@@ -153,11 +153,11 @@ var {
 /*
  * Logo
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003313}}
 #logo {
   padding: 10px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003316}}
 #logo img {
   vertical-align: bottom;
 }
@@ -168,15 +168,15 @@ var {
 /*
  * Site name (h1)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003331}}
 #site-name {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003337}}
 #site-name a:link, #site-name a:visited {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003342}}
 #site-name a:hover, #site-name a:focus {
   text-decoration: underline;
 }
@@ -184,7 +184,7 @@ var {
 /*
  * Site slogan (h2)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003352}}
 #site-slogan {
   margin: 0;
 }
@@ -207,14 +207,14 @@ var {
 /*
  * Aggregator feed source
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003387}}
 #aggregator .feed-source .feed-icon {
   display: inline;
   float: none;
   margin-right: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003395}}
 .feed-details dt,
 .feed-details dd {
   display: inline;
@@ -227,16 +227,16 @@ var {
 /*
  * Generic styles for links. See the ul.links declaration in node and comment stylesheets
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003410}}
 ul.links {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003414}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003414}}
 ul.links.inline {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003418}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003418}}
 ul.links li {
   display: inline;
   list-style: none;
@@ -246,7 +246,7 @@ ul.links li {
 /*
  * Search results are an ordered list so reset the margin
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003429}}
 .search-results {
   margin: 0;
 }
@@ -296,12 +296,12 @@ ul.links li {
 /* =============================================================================
  *   Links
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003520}}
 a {
   text-decoration: underline;
   color: #911F1C;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003531}}
 a:hover, a:focus {
   text-decoration: none;
   background-color: #4e40c8;
@@ -318,18 +318,18 @@ a:hover, a:focus {
  *  - #secondary-menu (secondary/user menu)
  * You can target all of these with .nav or div[id$="menu-bar"]
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003551}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003551}}
 .nav {
   clear: both;
   margin: 10px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003556}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003556}}
 .nav ul,
 .nav ul.menu {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003562}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003562}}
 .nav li,
 .nav ul.menu li {
   display: inline;
@@ -338,14 +338,14 @@ a:hover, a:focus {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003571}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003571}}
 .nav li a,
 .nav ul.menu li a {
   display: block;
   white-space: nowrap;
   padding: 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003582}}
 .nav .block {
   margin-bottom: 0;
 }
@@ -353,11 +353,11 @@ a:hover, a:focus {
 /* =============================================================================
  *   Superfish
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003592}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003592}}
 ul.sf-menu {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003595}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003595}}
 ul.sf-menu a {
   border-left: 0;
   border-top: 0;
@@ -366,11 +366,11 @@ ul.sf-menu a {
   height: 2.5em;
   line-height: 2.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003609}}
 ul.sf-menu li:hover, ul.sf-menu li.sfHover {
   outline: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003617}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003617}}
 ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
   outline: 0;
 }
@@ -378,12 +378,12 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Superfish blocks
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003631}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003631}}
 .block-superfish ul {
   margin: 0 !important;
   padding: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003642}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003642}}
 .block-superfish li {
   margin: 0 !important;
   padding: 0 !important;
@@ -392,22 +392,22 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Vertical style
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003652}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003652}}
 .sf-vertical {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003655}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003655}}
 .sf-vertical li {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003661}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003661}}
 .sf-vertical li:hover ul, .sf-vertical li.sfHover ul {
   left: 100%;
   top: 0;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003668}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003668}}
 .sf-vertical li a {
   padding: 0 10px;
 }
@@ -415,7 +415,7 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Navbar style
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003678}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003678}}
 .sf-navbar {
   padding-bottom: 0 !important;
 }
@@ -423,7 +423,7 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Sensible padding for the default style
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003686}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003686}}
 .sf-menu.sf-style-default a {
   padding: 0 10px;
 }
@@ -431,21 +431,21 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /* =============================================================================
  *   Menus, usually blocks
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003695}}
 ul.menu {
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003698}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003698}}
 ul.menu ul {
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003706}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003706}}
 ul.menu li {
   margin: 0;
 }
 
 /* If li.content exists it's a problem, so reset the padding */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003735}}
 .block .menu li.content {
   padding: 0;
 }
@@ -453,13 +453,13 @@ ul.menu li {
 /* =============================================================================
  *   Book navigation menu
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003752}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003752}}
 .book-navigation .page-up {
   /* Prevent text wrapping to a new line, assumes English "up" is used (two characters) */
   min-width: 2em;
   white-space: nowrap;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003758}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003758}}
 .book-navigation .menu {
   margin-left: 0;
 }
@@ -467,31 +467,31 @@ ul.menu li {
 /* =============================================================================
  *   Breadcrumbs
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003768}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003768}}
 #breadcrumb {
   margin: 10px 0;
   /* If the label is set to show in theme settings the label class is added */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003772}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003772}}
 #breadcrumb .breadcrumb-label {
   font-size: 1em;
   display: inline;
   padding-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003777}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003777}}
 #breadcrumb .breadcrumb-label:after {
   content: ":";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003782}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003782}}
 #breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003787}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003787}}
 #breadcrumb .with-breadcrumb-label ol {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003791}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003791}}
 #breadcrumb li {
   list-style: none;
   display: inline;
@@ -500,31 +500,31 @@ ul.menu li {
 /* =============================================================================
  *   Pagers
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003818}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003818}}
 ul.pager {
   clear: both;
   margin: 0;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003825}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003825}}
 .item-list ul.pager li {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003830}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003830}}
 ul.pager li {
   background-image: none;
   display: inline;
   list-style-type: none;
   padding: .5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003836}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003836}}
 ul.pager li.pager-current {
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003842}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003842}}
 .block ul.pager li {
   margin: 0;
 }
@@ -535,7 +535,7 @@ ul.pager li.pager-current {
 /* =============================================================================
  *   Skip Navigation
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003879}}
 #skip-link {
   font-size: 0.8em;
   margin-left: 0;
@@ -545,32 +545,32 @@ ul.pager li.pager-current {
   width: 100%;
   z-index: 50;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003887}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003887}}
 #skip-link ul {
   padding: 0;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003890}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003890}}
 #skip-link ul li {
   display: inline-block;
   list-type: none;
   padding-right: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003895}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003895}}
 #skip-link ul li a {
   display: inline;
   line-height: 2;
   padding: 2px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003902}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003902}}
 #skip-link ul li a:link, #skip-link ul li a:visited {
   display: inline-block;
   line-height: 2;
   padding: 2px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003910}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003910}}
 #skip-link ul li a:hover, #skip-link ul li a:focus, #skip-link ul li a:active {
   outline: 0;
 }
@@ -578,24 +578,24 @@ ul.pager li.pager-current {
 /* =============================================================================
  *   Tabs (local tasks)
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003926}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003926}}
 #tasks {
   margin-bottom: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003931}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003931}}
 ul.primary {
   border-bottom-color: #cccccc;
   margin: 20px 0;
   padding: 0 0 0 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003936}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003936}}
 ul.primary li {
   display: block;
   float: left;
   margin: 0 1px -1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003941}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003941}}
 ul.primary li a {
   background-color: whitesmoke;
   border-color: #cccccc;
@@ -606,12 +606,12 @@ ul.primary li a {
   height: 1.5em;
   line-height: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003952}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003952}}
 ul.primary li a:hover, ul.primary li a:focus {
   background-color: #eeeeee;
   border-color: #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003962}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003962}}
 ul.primary li.active a,
 ul.primary li.active a:hover,
 ul.primary li.active a:focus {
@@ -619,19 +619,19 @@ ul.primary li.active a:focus {
   border-bottom-color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003970}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003970}}
 ul.secondary {
   border-bottom: 1px solid #cccccc;
   margin: 1em 0 0;
   padding: 0 .3em 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003975}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003975}}
 ul.secondary li {
   border-right: 0;
   list-style: none;
   padding: 0 10px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003982}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003982}}
 ul.secondary li a:hover, ul.secondary li a.active {
   border-bottom: none;
   text-decoration: underline;
@@ -640,7 +640,7 @@ ul.secondary li a:hover, ul.secondary li a.active {
 /* =============================================================================
  *   Action links
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003995}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\00003995}}
 ul.action-links {
   margin: 20px 0 0;
   list-style: none;
@@ -661,7 +661,7 @@ ul.action-links {
 /*
  * Labels are h2 in Adaptivetheme. Use a strong selector to mitigate unwanted ineritance issues
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031028}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031028}}
 .field-label {
   font-size: 1em;
   font-weight: 700;
@@ -679,17 +679,17 @@ ul.action-links {
 /*
  * Taxonomy
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031057}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031057}}
 .field-type-taxonomy-term-reference {
   /* The same bottom margin as p, blockquote, ul, ol and dl */
   margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031062}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031062}}
 .field-type-taxonomy-term-reference.field-label-inline .field-items {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031067}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031067}}
 .field-type-taxonomy-term-reference.field-label-inline .field-item {
   display: inline;
   list-style: none;
@@ -747,7 +747,7 @@ ul.action-links {
 /*
  * Float left setting
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031182}}
 .ia-l .field-type-image figure,
 .iat-l .field-type-image figure {
   margin: 5px 20px 15px 0;
@@ -756,7 +756,7 @@ ul.action-links {
 /*
  * Centered setting
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031191}}
 .ia-c .field-type-image figure,
 .iat-c .field-type-image figure {
   margin: 5px auto 15px;
@@ -765,7 +765,7 @@ ul.action-links {
 /*
  * Float right setting
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031200}}
 .ia-r .field-type-image figure,
 .iat-r .field-type-image figure {
   margin: 5px 0 15px 20px;
@@ -777,7 +777,7 @@ ul.action-links {
 /*
  * Main wrapper for most blocks, block_system_main does not have it
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031213}}
 .block {
   margin-bottom: 20px;
 }
@@ -800,7 +800,7 @@ ul.action-links {
 /*
  * Block title
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031251}}
 .block-title {
   margin: 0;
 }
@@ -811,12 +811,12 @@ ul.action-links {
 /*
  * Match item list and block menu margin and padding
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031268}}
 .block-content ul,
 .block-content ol {
   padding: 0 0 0 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031272}}
 .block-content li {
   margin: 0;
   padding: 0;
@@ -906,11 +906,11 @@ ul.action-links {
 /* =============================================================================
  *   Node Styling
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031445}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031445}}
 .node {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031462}}
 .node .node-title {
   margin: 0;
 }
@@ -926,15 +926,15 @@ ul.action-links {
 /*
  * Wrapper for the list of comments and its titles
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031520}}
 #comments {
   margin: 1.5em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031524}}
 #comments h2.comment-title {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031528}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031528}}
 #comments h2.comment-form {
   margin: 0;
 }
@@ -942,7 +942,7 @@ ul.action-links {
 /*
  * Wrapper for a single comment
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031538}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031538}}
 .comment {
   margin-bottom: 20px;
 }
@@ -950,7 +950,7 @@ ul.action-links {
 /*
  * Comment title
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031569}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031569}}
 .comment-title {
   margin: 0;
 }
@@ -964,7 +964,7 @@ ul.action-links {
 /*
  * "New" marker for comments that are new for the current user
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031601}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031601}}
 .new {
   color: #cc0000;
 }
@@ -972,7 +972,7 @@ ul.action-links {
 /*
  * Nested comments are indented
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031609}}
 .indented {
   margin-left: 40px;
 }
@@ -983,17 +983,17 @@ ul.action-links {
 /*
  * Wrapper for a form element (or group of form elements) and its label
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031625}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031625}}
 .form-item input.error,
 .form-item textarea.error,
 .form-item select.error {
   border: 1px solid #cc0000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031629}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031629}}
 .form-item label {
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031636}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031636}}
 .form-item .description {
   font-size: 0.85em;
 }
@@ -1001,7 +1001,7 @@ ul.action-links {
 /*
  * Highlight marks and form required mark
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031650}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031650}}
 .marker,
 .form-required {
   color: #cc0000;
@@ -1010,7 +1010,7 @@ ul.action-links {
 /*
  * The submit button
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031664}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031664}}
 .container-inline div,
 .container-inline label {
   display: inline;
@@ -1019,7 +1019,7 @@ ul.action-links {
 /*
  * Define consistent borders
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031672}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031672}}
 fieldset {
   border: 1px solid #cccccc;
 }
@@ -1030,7 +1030,7 @@ fieldset {
 /*
  * Buttons used by contrib modules like Media
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031686}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031686}}
 a.button {
   -webkit-appearance: button;
   -moz-appearance: button;
@@ -1040,7 +1040,7 @@ a.button {
 /*
  * Password confirmation
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031695}}
 .password-parent,
 .confirm-parent {
   margin: 0;
@@ -1049,18 +1049,18 @@ a.button {
 /* =============================================================================
  *   Tables
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031704}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031704}}
 table {
   margin: 10px 0;
   padding: 0;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031709}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031709}}
 table.sticky-header {
   z-index: 10;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031720}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031720}}
 table,
 thead,
 tbody,
@@ -1070,27 +1070,27 @@ td {
   border-color: #cccccc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031727}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031727}}
 table,
 td,
 th {
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031734}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031734}}
 caption,
 th,
 td {
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031739}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031739}}
 thead tr {
   font-weight: 700;
   background-color: #e5e5e5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031746}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031746}}
 td,
 th {
   border-bottom: 0;
@@ -1098,29 +1098,29 @@ th {
   padding: 5px 7px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031756}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031756}}
 tbody tr {
   border-top: 1px solid #cccccc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031761}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031761}}
 tr {
   /* Table row striping */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031763}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031763}}
 tr.odd {
   background: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031770}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031770}}
 tr.info, tr.even, tr:nth-child(2n+2) {
   border-bottom: 0;
   background-color: whitesmoke;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031779}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031779}}
 tr.odd td.active {
   background-color: #eeeeee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031783}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031783}}
 tr.even td.active {
   background-color: #ebebeb;
 }
@@ -1129,7 +1129,7 @@ tr.even td.active {
  * Forum tables
  * Core sets white-space to nowrap, which makes no sense
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031811}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031811}}
 #forum td .created,
 #forum td .posts,
 #forum td .topics,
@@ -1142,12 +1142,12 @@ tr.even td.active {
 /* =============================================================================
  *   Messages
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031822}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031822}}
 div.messages {
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031827}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031827}}
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -1156,7 +1156,7 @@ div.messages ul {
 /*
  * Unpublished nodes
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031868}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031868}}
 .node-unpublished p.unpublished,
 .comment-unpublished p.unpublished {
   color: pink;
@@ -1173,7 +1173,7 @@ div.messages ul {
   text-transform: uppercase;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/_custom\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/_custom\.scss}line{font-family:\00003187}}
 .ie6-7 .node-unpublished p.unpublished > *, .ie6-7
 .comment-unpublished p.unpublished > * {
   position: relative;
@@ -1182,28 +1182,28 @@ div.messages ul {
 /* =============================================================================
  *    Maintenance pages
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031879}}
 .maintenance-page .container {
   padding: 40px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031884}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031884}}
 .maintenance-page #site-name,
 .maintenance-page #page-title {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031891}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031891}}
 .db-offline .container {
   margin: 0 auto;
   padding: 40px 0;
   width: 100%;
   max-width: 960px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031898}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031898}}
 .db-offline div.messages {
   margin: 20px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031902}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031902}}
 .db-offline #content {
   padding: 20px 0;
 }
@@ -1214,7 +1214,7 @@ div.messages ul {
 /*
  * Admin menu overrides
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031915}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031915}}
 #admin-menu {
   margin: 0;
   padding: 0;
@@ -1223,7 +1223,7 @@ div.messages ul {
 /*
  * Devel Module
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031924}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031924}}
 .dev-query {
   background: #eeeeee;
   padding: 30px;
@@ -1232,11 +1232,11 @@ div.messages ul {
 /*
  * Styleguide module tweaks
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031933}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031933}}
 #styleguide-header {
   padding: 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031936}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.styles\.scss}line{font-family:\000031936}}
 #styleguide-header .item-list {
   font-family: inherit;
   margin: 0 20px 20px 0;
