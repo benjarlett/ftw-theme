@@ -12,3 +12,20 @@
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 
+
+.no-sidebars{
+	.container{
+		text-align: center;
+		#header{
+			text-align: left;
+		}
+		#columns{
+	    	display: inline-block;
+	    	text-align: left;
+	    	margin: 0 auto;
+		}	
+	}
+}
+
+#menu-bar #block-superfish-1 {
+    font-size: 1.2em;}

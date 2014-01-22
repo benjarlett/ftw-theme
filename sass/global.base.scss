@@ -852,14 +852,17 @@ text-align: center;  margin: 0;
         padding: 1em;
         margin: 0;
         border: none;
-        color: #fff;
-        background: none repeat scroll 0 0 #911F1C;
+        color: #911F1C;
+        background: none repeat scroll 0 0 white;
+        border-bottom: 1px solid #911F1C;
+      text-decoration: none;
       }
       a.sf-expanded, .li.sf-expanded > a, li.sf-expanded > span.nolink {
       font-weight: normal;
       }
       a:hover{
       background: #4e40c8;
+      color: #fff;
       }
     }
   }
@@ -954,6 +957,7 @@ footer{
 
   }
   .region{
+    text-align: center;
     #block-superfish-2{
       .block-title{ position: absolute; top: -99999em; width: 1px; height: 1px; overflow: hidden; outline: 0; 
       }
@@ -1002,4 +1006,26 @@ footer{
       }
     }
   }
+}
+
+button, input[type="reset"], input[type="button"], input[type="submit"] {
+    -moz-appearance: button;
+    -moz-binding: none;
+    -moz-box-sizing: border-box;
+    -moz-user-select: none;
+    background-color: #911F1C;
+    border: 1px outset #911F1C;
+    border-radius: $rounded-corner;
+    color: #fff;
+    cursor: default;
+    font-style: inherit;
+    line-height: normal;
+    padding: .5em;
+    text-align: center;
+    text-shadow: none;
+    white-space: pre;
+}
+button:hover, input[type="reset"]:hover, input[type="button"]:hover, input[type="submit"]:hover {
+  background: #4e40c8;
+  border: 1px outset #4e40c8;
 }

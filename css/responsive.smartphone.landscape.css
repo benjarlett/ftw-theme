@@ -77,3 +77,8 @@ html {
 .region-sidebar-first, .region-sidebar-second {
   margin-top: 0px;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/responsive\.smartphone\.landscape\.scss}line{font-family:\0000366}}
+footer {
+  padding: 1em 0;
+}

@@ -8,3 +8,22 @@
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000317}}
+.no-sidebars .container {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000319}}
+.no-sidebars .container #header {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000322}}
+.no-sidebars .container #columns {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/responsive\.tablet\.landscape\.scss}line{font-family:\0000330}}
+#menu-bar #block-superfish-1 {
+  font-size: 1.2em;
+}
