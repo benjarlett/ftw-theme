@@ -714,12 +714,46 @@ header[role=banner],
 
 
 /* header */
+.not-logged-in.front #header .background{
+-webkit-animation-fill-mode: both;
+-moz-animation-fill-mode: both;
+-ms-animation-fill-mode: both;
+-o-animation-fill-mode: both;
+animation-fill-mode: both;
+-webkit-animation-duration: 2.5s;
+-moz-animation-duration: 2.5s;
+-ms-animation-duration: 2.5s;
+-o-animation-duration: 2.5s;
+animation-duration: 2.5s;
+-webkit-animation-name: bounceInUp;
+-moz-animation-name: bounceInUp;
+-ms-animation-name: bounceInUp;
+-o-animation-name: bounceInUp;
+animation-name: bounceInUp;
+-webkit-animation-delay: 0.5s;
+-moz-animation-delay: 0.5s;
+-ms-animation-delay: 0.5s;
+-o-animation-delay: 0.5s;
+animation-delay: 0.5s;
+  }
 
 #header{
   border-top: solid 1px #911F1C;
   border-bottom: solid 1px #911F1C;
-    background:url('../images/ftw-background.png') no-repeat top center;
-    background-size: 398px 292px;
+    
+    .background{
+     width: 404px; 
+     height: 365px;
+     z-index: -1;
+     position: absolute;
+     left:0;
+     right:0;
+     margin-left:auto;
+     margin-right:auto;
+     background:url('../images/ftw-background2.png') no-repeat top center;
+     background-size: 404px 365px;
+     top:-30px;
+    }
 
   .inner{
     
@@ -768,13 +802,27 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   #header{
-      background:url('../images/ftw-background2x.png') no-repeat top center;
-      background-size: 398px 292px;
+    position: relative;
+    .background{
+     width: 402px; 
+     height: 365px;
+     z-index: -1;
+     position: absolute;
+     left:0;
+     right:0;
+     margin-left:auto;
+     margin-right:auto;
+     background:url('../images/ftw-background2x2.png') no-repeat top center;
+     background-size: 402px 365px;
+     top:-60px;
+    }
     .inner{
     height:200px;
     }
   }
+  
 }
+
 #site-slogan{color: #E4332C;
 font-family: 'Arial Black', Gadget, sans-serif;
 font-style: italic;
@@ -793,7 +841,7 @@ line-height: 1.5em;
 
 text-align: center;  margin: 0;
   #block-superfish-1{
-    font-size: 1.428em;
+    font-size: 1.3em;
     margin: 0;
     display: inline-block;
       border-bottom: solid 1px #911F1C;
@@ -899,21 +947,24 @@ text-align: center;  margin: 0;
 
 /* login menu */
 #block-user-login{
-  h2{
-  position: absolute;
-  top: -99999em;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  outline: 0;
-  }
-  #user-login-form{
-    ul{
-      margin: 0;
-      padding: 0;
-      li{
-        list-style: none;
-        margin: 0;
+  .block-inner{
+    margin-right: 0;
+    h2{
+   position: absolute;
+    top: -99999em;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    outline: 0;
+    }
+    #user-login-form{
+     ul{
+       margin: 0;
+       padding: 0;
+        li{
+         list-style: none;
+          margin: 0;
+        }
       }
     }
   }
@@ -927,12 +978,35 @@ text-align: center;  margin: 0;
     border-radius: 0.25em;
     line-height: 1.5em;
     padding: 1em;
+    position: relative;   /*drop shadow*/
+    border: 1px solid #eee;
     .block-inner{
       margin:0;
       }
     }
+    .block:before, .block:after { position: absolute; z-index: -2; content: ""; }   /*drop shadow*/
+    .block:before { top: 1px; bottom: 0; left: 12px; right: 12px; 
+                -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); 
+                -moz-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); 
+                box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); 
+                -moz-border-radius: 150px/10px; border-radius: 150px/10px; }   /*drop shadow*/
+    .block:before { top: 20%; }   /*drop shadow*/
   }
 }
+
+#main-content{
+  position: relative;   /*drop shadow*/
+  border: 1px solid #eee;
+  .inner:before, .inner:after { position: absolute; z-index: -2; content: ""; }   /*drop shadow*/
+  .inner:before { top: 1px; bottom: 0; left: 12px; right: 12px; 
+                -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); 
+                -moz-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); 
+                box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5); 
+                -moz-border-radius: 150px/10px; border-radius: 150px/10px; }   /*drop shadow*/
+  .inner:before { top: 20%; }   /*drop shadow*/
+}
+
+
 .region-sidebar-first{
   .region-inner{
     margin: 1em 0 1em 1em;
@@ -945,10 +1019,12 @@ text-align: center;  margin: 0;
 }
 /* footer menu */
 footer{
-  background: #911F1C;
-  color: #fff;
+  background: #F6F6F6;
+  color: #000;
+  border-top: 1px solid #911F1C;
+  line-height: 0;
   a, a.active{
-    color: #fff;
+    color: #000;
 
   }
 

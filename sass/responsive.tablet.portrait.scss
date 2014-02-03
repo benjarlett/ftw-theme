@@ -18,9 +18,7 @@ html {
 }
 
 #header {
-	.inner{
-		background: none;
-	}
+    .background{background: none;}
 }
 .region-sidebar-first .region-inner {
     margin: 0 0.5em 0 1em;
@@ -41,9 +39,22 @@ html {
 	}
 .region-sidebar-first, .region-sidebar-second {
     margin-top: 0px;}
+.sidebar .region-inner .block {
+    padding: .5em;}
+#main-content{
+ 	margin-left:.5em;
+ 	margin-right:.5em; 
+ }
+ .region-sidebar-first .region-inner {
+    margin-left: .5em;
+}
+ .region-sidebar-second .region-inner {
+    margin-right: .5em;
+}
 
 footer{
-      padding: 1em 0;}
+      padding: 1em 0;
+  line-height: 1.5em;}
 
 
 #menu-bar #block-superfish-1 {

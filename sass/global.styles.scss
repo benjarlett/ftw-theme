@@ -171,8 +171,12 @@ position:relative;
 /*
  * Wraps the sidebars the content column
  */
-#columns {}
+#columns {
+    margin-top: 0em;
+}
 
+.front #columns {
+}
 
 /*
  * Main content column wrapper
@@ -884,6 +888,7 @@ ul.pager li {
     text-align: center;
     width: 100%;
     z-index: 50;
+background: #fff;
 	ul{
 	padding:0;
 	margin:0;
@@ -1436,6 +1441,10 @@ ul.action-links {
  * "Who's online" block for a list of the online users
  */
 #block-user-online {}
+
+.sidebar .region-inner{position: relative;
+z-index: 1;}
+
 
 
 /* =============================================================================

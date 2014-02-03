@@ -30,7 +30,7 @@ html {
 	}
 }
 #header {
-	background: none;
+	.inner{background: none;}
 	#branding {
 		#logo a {
 	    top: 60px;
@@ -43,6 +43,10 @@ html {
     margin: 1em;
 }
 
+.sidebar .region-inner .block {
+    padding: .5em;}
+
 
 footer{
-      padding: 1em 0;}
+      padding: 1em 0;
+  line-height: 1.5em;}

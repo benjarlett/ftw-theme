@@ -94,6 +94,7 @@
   <?php print render($page['leaderboard']); ?>
 
   <header<?php print $header_attributes; ?>>
+  <div class="background"></div>
     <div class="inner">
 
     <?php if ($site_logo || $site_name || $site_slogan): ?>
@@ -153,7 +154,7 @@
         <?php print render($page['help']); ?>
         <?php print render($page['highlighted']); ?>
 
-        <<?php print $tag; ?> id="main-content">
+        <<?php print $tag; ?> id="main-content"><div class="inner">
 
           <?php print render($title_prefix); // Does nothing by default in D7 core ?>
 
@@ -192,7 +193,7 @@
             <div id="content" class="region">
               <?php print $content; ?>
             </div>
-          <?php endif; ?>
+          <?php endif; ?></div>
 
           <!-- Feed icons (RSS, Atom icons etc -->
           <?php print $feed_icons; ?>

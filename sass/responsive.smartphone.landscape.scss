@@ -30,11 +30,8 @@ html {
 	}
 }
 #header {
-	.inner{
-		background: none;
-	}
-	background: none;
-	#branding {
+    .background{background: none;}
+    #branding {
 		#logo a {
 	    top: 60px;
 		}
@@ -52,6 +49,10 @@ html {
 .region-sidebar-second .block {
 	width: auto;
 }
+
+.sidebar .region-inner .block {
+    padding: .5em;}
+    
 #content-column{
 		text-align: center;
 		.content-inner{
@@ -62,6 +63,16 @@ html {
 	}
 .region-sidebar-first, .region-sidebar-second {
     margin-top: 0px;}
-
+#main-content{
+ 	margin-left:.5em;
+ 	margin-right:.5em; 
+ }
+ .region-sidebar-first .region-inner {
+    margin-left: .5em;
+}
+ .region-sidebar-second .region-inner {
+    margin-right: .5em;
+}
 footer{
-      padding: 1em 0;}
+      padding: 1em 0;
+  line-height: 1.5em;}
