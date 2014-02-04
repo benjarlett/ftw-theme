@@ -1173,31 +1173,31 @@ header[role=banner],
 
 /* footer menu */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031021}}
-footer {
+#footer {
   background: #F6F6F6;
   color: #000;
   border-top: 1px solid #911F1C;
   line-height: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031026}}
-footer a, footer a.active {
+#footer a, #footer a.active {
   color: #000;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031031}}
-footer a:hover {
+#footer a:hover {
   background: #4e40c8;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031035}}
-footer .region {
+#footer .region {
   text-align: center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031037}}
-footer .region #block-superfish-2 {
+#footer .region #block-superfish-2 {
   margin-bottom: 0;
   display: inline-block;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031038}}
-footer .region #block-superfish-2 .block-title {
+#footer .region #block-superfish-2 .block-title {
   position: absolute;
   top: -99999em;
   width: 1px;

@@ -193,14 +193,14 @@
             <div id="intro_content" class="region">
               <?php print $content; ?>
             </div>
-          <?php endif; ?></div>
+          <?php endif; ?>
 
           <!-- region: Main Content -->
           <?php if ($content = render($page['content'])): ?>
             <div id="content" class="region">
               <?php print $content; ?>
             </div>
-          <?php endif; ?></div>
+          <?php endif; ?>
 
           <!-- region: Help Content -->
           <?php if ($content = render($page['help_content'])): ?>

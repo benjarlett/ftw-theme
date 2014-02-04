@@ -123,11 +123,13 @@ hide($content['links']);
       <p class="author-datetime">Report assigned to: <?php print $name; ?> uid: <?php print $uid; ?>, submitted on: <?php print $date; ?> by <?php
 print render($content['field_reporter'][0]['user']['name']); 
 ?></p>
-      <?php
-print '<pre>';
-print htmlspecialchars(print_r(get_defined_vars(), TRUE), ENT_QUOTES);
-print '</pre>';
-?>
+     <?php /**
+      * <?php print '<pre>';
+      * print htmlspecialchars(print_r(get_defined_vars(), TRUE), ENT_QUOTES);
+      * print '</pre>';
+      * ?>
+      */?>
+
     </footer>
   <?php endif; ?>
 
