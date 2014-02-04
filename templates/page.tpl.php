@@ -188,9 +188,23 @@
             </header>
           <?php endif; ?>
 
+          <!-- region: Intro Content -->
+          <?php if ($content = render($page['intro_content'])): ?>
+            <div id="intro_content" class="region">
+              <?php print $content; ?>
+            </div>
+          <?php endif; ?></div>
+
           <!-- region: Main Content -->
           <?php if ($content = render($page['content'])): ?>
             <div id="content" class="region">
+              <?php print $content; ?>
+            </div>
+          <?php endif; ?></div>
+
+          <!-- region: Help Content -->
+          <?php if ($content = render($page['help_content'])): ?>
+            <div id="help_content" class="region">
               <?php print $content; ?>
             </div>
           <?php endif; ?></div>
