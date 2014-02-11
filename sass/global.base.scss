@@ -843,6 +843,7 @@ text-align: center;  margin: 0;
   #block-superfish-1{
     font-size: 1.3em;
     margin: 0;
+    padding: 0;
     display: inline-block;
       border-bottom: solid 1px #911F1C;
 
@@ -1105,3 +1106,10 @@ button:hover, input[type="reset"]:hover, input[type="button"]:hover, input[type=
   background: #4e40c8;
   border: 1px outset #4e40c8;
 }
+
+/*dashboard*/
+.views-field-field-report-status-comment{}
+.views-field-field-report-status-comment.Waiting{}
+.views-field-field-report-status-comment.Assigned {background-color:#ccebcc;}
+.views-field-field-report-status-comment.Contacted {background-color:#ffebcc;}
+.views-field-field-report-status-comment.Closed{background-color:#ffcccc;}
