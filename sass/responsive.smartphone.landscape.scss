@@ -30,7 +30,7 @@ html {
 	}
 }
 #header {
-    .background{background: none;}
+    .background{overflow:hidden;width:100%; }
     #branding {
 		#logo a {
 	    top: 60px;
