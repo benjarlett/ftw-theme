@@ -1998,3 +1998,9 @@ body.front #main-content #content:after {
   display: block;
   margin-top: 90%;
 }
+
+/*report via tweet*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031683}}
+#block-block-62 {
+  display: inline-block;
+}
