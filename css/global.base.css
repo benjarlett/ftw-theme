@@ -2,27 +2,27 @@
 /*bens-mixins*/
 @-webkit-keyframes bounceInUp {
   /* line 195, ../scss/demo.scss */
-  /* line 201, ../sass/_custom.scss */
+  /* line 204, ../sass/_custom.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(400px);
   }
 
   /* line 200, ../scss/demo.scss */
-  /* line 203, ../sass/_custom.scss */
+  /* line 206, ../sass/_custom.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(-20px);
   }
 
   /* line 205, ../scss/demo.scss */
-  /* line 205, ../sass/_custom.scss */
+  /* line 208, ../sass/_custom.scss */
   80% {
     -webkit-transform: translateY(10px);
   }
 
   /* line 209, ../scss/demo.scss */
-  /* line 207, ../sass/_custom.scss */
+  /* line 210, ../sass/_custom.scss */
   100% {
     -webkit-transform: translateY(0);
   }
@@ -30,27 +30,27 @@
 
 @-moz-keyframes bounceInUp {
   /* line 214, ../scss/demo.scss */
-  /* line 210, ../sass/_custom.scss */
+  /* line 213, ../sass/_custom.scss */
   0% {
     opacity: 0;
     -moz-transform: translateY(400px);
   }
 
   /* line 219, ../scss/demo.scss */
-  /* line 212, ../sass/_custom.scss */
+  /* line 215, ../sass/_custom.scss */
   60% {
     opacity: 1;
     -moz-transform: translateY(-20px);
   }
 
   /* line 224, ../scss/demo.scss */
-  /* line 214, ../sass/_custom.scss */
+  /* line 217, ../sass/_custom.scss */
   80% {
     -moz-transform: translateY(10px);
   }
 
   /* line 228, ../scss/demo.scss */
-  /* line 216, ../sass/_custom.scss */
+  /* line 219, ../sass/_custom.scss */
   100% {
     -moz-transform: translateY(0);
   }
@@ -58,27 +58,27 @@
 
 @-o-keyframes bounceInUp {
   /* line 234, ../scss/demo.scss */
-  /* line 219, ../sass/_custom.scss */
+  /* line 222, ../sass/_custom.scss */
   0% {
     opacity: 0;
     -o-transform: translateY(400px);
   }
 
   /* line 239, ../scss/demo.scss */
-  /* line 221, ../sass/_custom.scss */
+  /* line 224, ../sass/_custom.scss */
   60% {
     opacity: 1;
     -o-transform: translateY(-20px);
   }
 
   /* line 244, ../scss/demo.scss */
-  /* line 223, ../sass/_custom.scss */
+  /* line 226, ../sass/_custom.scss */
   80% {
     -o-transform: translateY(10px);
   }
 
   /* line 248, ../scss/demo.scss */
-  /* line 225, ../sass/_custom.scss */
+  /* line 228, ../sass/_custom.scss */
   100% {
     -o-transform: translateY(0);
   }
@@ -86,27 +86,27 @@
 
 @keyframes bounceInUp {
   /* line 254, ../scss/demo.scss */
-  /* line 228, ../sass/_custom.scss */
+  /* line 231, ../sass/_custom.scss */
   0% {
     opacity: 0;
     transform: translateY(400px);
   }
 
   /* line 259, ../scss/demo.scss */
-  /* line 230, ../sass/_custom.scss */
+  /* line 233, ../sass/_custom.scss */
   60% {
     opacity: 1;
     transform: translateY(-20px);
   }
 
   /* line 264, ../scss/demo.scss */
-  /* line 232, ../sass/_custom.scss */
+  /* line 235, ../sass/_custom.scss */
   80% {
     transform: translateY(10px);
   }
 
   /* line 268, ../scss/demo.scss */
-  /* line 234, ../sass/_custom.scss */
+  /* line 237, ../sass/_custom.scss */
   100% {
     transform: translateY(0);
   }
@@ -965,7 +965,7 @@ header[role=banner],
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003859}}
 #menu-bar #block-superfish-1 .sf-menu.sf-style-white li {
-  background: #fff;
+  background: #f7f9f7;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003861}}
 #menu-bar #block-superfish-1 .sf-menu.sf-style-white li a, #menu-bar #block-superfish-1 .sf-menu.sf-style-white li span.nolink {
@@ -976,54 +976,55 @@ header[role=banner],
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003865}}
 #menu-bar #block-superfish-1 .sf-menu.sf-style-white li a:hover, #menu-bar #block-superfish-1 .sf-menu.sf-style-white li a:active, #menu-bar #block-superfish-1 .sf-menu.sf-style-white li a:focus, #menu-bar #block-superfish-1 .sf-menu.sf-style-white li span.nolink:hover {
-  background: #4e40c8;
+  background: #e60d00;
   color: #fff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003869}}
 #menu-bar #block-superfish-1 .sf-menu.sf-style-white li span.nolink {
-  padding: 0.5em 1em 0.5em 1em;
+  padding: 0.5em;
+  min-width: 3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003873}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003874}}
 #menu-bar #block-superfish-1 .sf-menu.sf-style-white li li {
-  background: #fff;
+  background: #f7f9f7;
   border-left: 1px solid #911F1C;
   border-right: 1px solid #911F1C;
   border-top: 0px solid #fff;
   border-bottom: 1px solid #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003880}}
 #menu-bar #block-superfish-1 .sf-menu.sf-style-white li li a {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003883}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003884}}
 #menu-bar #block-superfish-1 .sf-menu.sf-style-white li li li {
   background: #ddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003885}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003886}}
 #menu-bar #block-superfish-1 .sf-menu.sf-style-white li li li a {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003892}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003893}}
 #menu-bar #block-superfish-1 .sf-menu.sf-style-white li li.last, #menu-bar #block-superfish-1 .sf-menu.sf-style-white li li.firstandlast {
   border-bottom: 1px solid #911F1C;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003899}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003900}}
 #menu-bar #block-superfish-1 .sf-menu li:hover > ul, #menu-bar #block-superfish-1 .sf-menu li.sfHover > ul {
   left: 0;
   top: 3.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003902}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003903}}
 #menu-bar #block-superfish-1 a > .sf-sub-indicator, #menu-bar #block-superfish-1 span.nolink > .sf-sub-indicator {
   top: 2.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003905}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003906}}
 #menu-bar #block-superfish-1 div.sf-accordion-toggle.sf-style-white {
   height: 3em;
   margin: 0;
   position: relative;
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003910}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003911}}
 #menu-bar #block-superfish-1 div.sf-accordion-toggle.sf-style-white a {
   display: block;
   padding: 1em;
@@ -1034,44 +1035,49 @@ header[role=banner],
   border-bottom: 1px solid #911F1C;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003920}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003921}}
 #menu-bar #block-superfish-1 div.sf-accordion-toggle.sf-style-white a.sf-expanded, #menu-bar #block-superfish-1 div.sf-accordion-toggle.sf-style-white .li.sf-expanded > a, #menu-bar #block-superfish-1 div.sf-accordion-toggle.sf-style-white li.sf-expanded > span.nolink {
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003923}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003924}}
 #menu-bar #block-superfish-1 div.sf-accordion-toggle.sf-style-white a:hover {
   background: #4e40c8;
   color: #fff;
 }
 
 /*main content*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003932}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003933}}
 #main-content {
   line-height: 1.5em;
-  background-color: #f6f6f6;
+  background-color: #f7f9f7;
   padding: 1em;
   margin: 1em;
   border-radius: 0.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003940}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003941}}
+.front #main-content {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003944}}
 #columns {
   font-size: 1.1433em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003944}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003948}}
 #content-column .content-inner {
   max-width: 40em;
 }
 
 /*prevent  more than 80 chars per line*/
 /*messages*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003948}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003952}}
 #messages {
   margin: 1em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003951}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003955}}
 #messages .messages {
   text-align: left;
   margin: 0;
@@ -1080,11 +1086,11 @@ header[role=banner],
 }
 
 /* login menu */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003962}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003966}}
 #block-user-login .block-inner {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003964}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003968}}
 #block-user-login .block-inner h2 {
   position: absolute;
   top: -99999em;
@@ -1093,27 +1099,27 @@ header[role=banner],
   overflow: hidden;
   outline: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003973}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003977}}
 #block-user-login .block-inner #user-login-form ul {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003976}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003980}}
 #block-user-login .block-inner #user-login-form ul li {
   list-style: none;
   margin: 0;
 }
 
 /*sidebars*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003987}}
-.sidebar .region-inner {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003991}}
+.sidebar .region-inner, .region-highlighted .region-inner, .region-help-content .region-inner {
   /*drop shadow*/
   /*drop shadow*/
   /*drop shadow*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003988}}
-.sidebar .region-inner .block {
-  background-color: #F6F6F6;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003992}}
+.sidebar .region-inner .block, .region-highlighted .region-inner .block, .region-help-content .region-inner .block {
+  background-color: #f7f9f7;
   border-radius: 0.25em;
   line-height: 1.5em;
   padding: 1em;
@@ -1121,18 +1127,22 @@ header[role=banner],
   /*drop shadow*/
   border: 1px solid #eee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003995}}
-.sidebar .region-inner .block .block-inner {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003999}}
+.sidebar .region-inner .block .block-inner, .region-highlighted .region-inner .block .block-inner, .region-help-content .region-inner .block .block-inner {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003999}}
-.sidebar .region-inner .block:before, .sidebar .region-inner .block:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031001}}
+.sidebar .region-inner .block .block-inner p, .region-highlighted .region-inner .block .block-inner p, .region-help-content .region-inner .block .block-inner p {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031006}}
+.sidebar .region-inner .block:before, .sidebar .region-inner .block:after, .region-highlighted .region-inner .block:before, .region-highlighted .region-inner .block:after, .region-help-content .region-inner .block:before, .region-help-content .region-inner .block:after {
   position: absolute;
   z-index: -2;
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031000}}
-.sidebar .region-inner .block:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031007}}
+.sidebar .region-inner .block:before, .region-highlighted .region-inner .block:before, .region-help-content .region-inner .block:before {
   top: 1px;
   bottom: 0;
   left: 12px;
@@ -1143,12 +1153,26 @@ header[role=banner],
   -moz-border-radius: 150px/10px;
   border-radius: 150px/10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031005}}
-.sidebar .region-inner .block:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031012}}
+.sidebar .region-inner .block:before, .region-highlighted .region-inner .block:before, .region-help-content .region-inner .block:before {
   top: 20%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031009}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031015}}
+.region-highlighted {
+  margin: 1em 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031018}}
+.region-help-content {
+  margin: 1em 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031020}}
+.region-help-content .block {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031025}}
 #main-content {
   position: relative;
   /*drop shadow*/
@@ -1157,13 +1181,13 @@ header[role=banner],
   /*drop shadow*/
   /*drop shadow*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031012}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031028}}
 #main-content .inner:before, #main-content .inner:after {
   position: absolute;
   z-index: -2;
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031013}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031029}}
 #main-content .inner:before {
   top: 1px;
   bottom: 0;
@@ -1175,47 +1199,47 @@ header[role=banner],
   -moz-border-radius: 150px/10px;
   border-radius: 150px/10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031018}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031034}}
 #main-content .inner:before {
   top: 20%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031023}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031039}}
 .region-sidebar-first .region-inner {
   margin: 1em 0 1em 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031028}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031044}}
 .region-sidebar-second .region-inner {
   margin: 1em 1em 1em 0;
 }
 
 /* footer menu */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031049}}
 #footer {
-  background: #F6F6F6;
+  background: #f7f9f7;
   color: #000;
   border-top: 1px solid #911F1C;
   line-height: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031054}}
 #footer a, #footer a.active {
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031043}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031059}}
 #footer a:hover {
   background: #4e40c8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031047}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031063}}
 #footer .region {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031049}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031065}}
 #footer .region #block-superfish-2 {
   margin-bottom: 0;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031050}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031066}}
 #footer .region #block-superfish-2 .block-title {
   position: absolute;
   top: -99999em;
@@ -1226,20 +1250,20 @@ header[role=banner],
 }
 
 /*front page arrow*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031059}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031076}}
 .front #block-system-main {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031061}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031078}}
 .front #block-system-main #node-114 {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031065}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031082}}
 #frontpagearrow {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031067}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031084}}
 #frontpagearrow .content {
   border: 3px solid #AFB4FC;
   border-radius: 0.25em;
@@ -1249,12 +1273,12 @@ header[role=banner],
   text-align: center;
   background-color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031075}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031092}}
 #frontpagearrow .content h2 {
   margin: 0;
   padding: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031080}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031097}}
 #frontpagearrow #arrow {
   position: relative;
   top: -4px;
@@ -1262,14 +1286,14 @@ header[role=banner],
 }
 
 /*faq*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031091}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031108}}
 .view-id-faq ul li a {
   display: block;
   padding: 2px;
 }
 
 /*buttons*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031117}}
 button, input[type="reset"], input[type="button"], input[type="submit"] {
   -moz-box-shadow: inset 0px 1px 0px 0px #f29c93;
   -webkit-box-shadow: inset 0px 1px 0px 0px #f29c93;
@@ -1293,7 +1317,7 @@ button, input[type="reset"], input[type="button"], input[type="submit"] {
   padding: .5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031139}}
 button:hover, input[type="reset"]:hover, input[type="button"]:hover, input[type="submit"]:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00));
   background: -moz-linear-gradient(center top, #ce0100 5%, #fe1a00 100%);
@@ -1301,40 +1325,40 @@ button:hover, input[type="reset"]:hover, input[type="button"]:hover, input[type=
   background-color: #ce0100;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031145}}
 button:active, input[type="reset"]:active, input[type="button"]:active, input[type="submit"]:active {
   position: relative;
   top: 1px;
 }
 
 /*dashboard*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031152}}
 .views-field-field-report-status-comment.Assigned {
   background-color: #ccebcc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031153}}
 .views-field-field-report-status-comment.Contacted {
   background-color: #ffebcc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031154}}
 .views-field-field-report-status-comment.Closed {
   background-color: #ffcccc;
 }
 
 /*front intro block*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031157}}
 #block-block-58 {
   margin: .5em 1em 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031160}}
 #block-block-58 .block-inner {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031164}}
 #front-intro-block {
   border-radius: 0.25em;
   position: relative;
@@ -1344,9 +1368,9 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   margin: 0 auto;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031173}}
 #front-intro-block .titlefooter {
-  background-color: #F6F6F6;
+  background-color: #f7f9f7;
   width: 100%;
   display: block;
   position: absolute;
@@ -1356,7 +1380,7 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   border-radius: 0.25em;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031183}}
 #front-intro-block h2 {
   position: absolute;
   top: 0;
@@ -1371,45 +1395,45 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   width: 100%;
   display: block;
   z-index: 3;
-  background-color: #F6F6F6;
+  background-color: #f7f9f7;
   height: 1.35em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031200}}
 #front-intro-block .third {
   border: none;
   display: inline-block;
   float: left;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031205}}
 #front-intro-block .third .third-inner {
   margin-top: 5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031211}}
 #front-intro-block .love {
   width: 37%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031212}}
 #front-intro-block .love .third-inner {
   padding-left: 8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031214}}
 #front-intro-block .love .third-inner a {
   text-decoration: none;
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031218}}
 #front-intro-block .love .third-inner a:hover {
   text-decoration: none;
   background-color: #000;
   color: #fff;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031226}}
 #front-intro-block .love h2 {
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031228}}
 #front-intro-block .love .stephenfry {
   width: 8em;
   float: left;
@@ -1420,19 +1444,19 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   border-left: none;
   margin-top: .5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031238}}
 #front-intro-block .love .quote {
   line-height: 1.5em;
   text-align: center;
   z-index: 3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031242}}
 #front-intro-block .love .quote p {
   margin: 0;
   padding: 0;
   font-size: 1.1433em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031248}}
 #front-intro-block .love .quote blockquote {
   margin: 0;
   font-size: 1.5em;
@@ -1440,7 +1464,7 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   font-style: italic;
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031254}}
 #front-intro-block .love .quote .frycredit {
   color: #E4332C;
   display: inline;
@@ -1451,11 +1475,11 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031263}}
 #front-intro-block .love .quote .frymore:before {
   content: "\00BB";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031265}}
 #front-intro-block .love .quote blockquote:before {
   content: "\201C";
   font-size: 2em;
@@ -1463,7 +1487,7 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   position: relative;
   top: .2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031254}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031271}}
 #front-intro-block .love .quote blockquote:after {
   content: "\201D";
   font-size: 4em;
@@ -1471,35 +1495,35 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   line-height: 0;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031280}}
 #front-intro-block .join {
   width: 26%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031282}}
 #front-intro-block .join h2 {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031286}}
 #front-intro-block .join p {
   margin: 1em 0;
   padding: 0;
   text-align: center;
   font-size: 1.1433em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031293}}
 #front-intro-block .fix {
   position: relative;
   width: 37%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031294}}
 #front-intro-block .fix .third-inner {
   padding: 0 1em 1em 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031299}}
 #front-intro-block .fix h2 {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031304}}
 #front-intro-block .fix h3 {
   display: inline;
   font-size: 1.3em;
@@ -1507,12 +1531,12 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   margin: 0;
   line-height: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031310}}
 #front-intro-block .fix h3 a {
   color: #E4332C;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031314}}
 #front-intro-block .fix p {
   text-align: center;
   font-size: 1.1em;
@@ -1521,7 +1545,7 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   margin: 0;
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031321}}
 #front-intro-block .fix p .red {
   color: #E4332C;
   font-weight: bold;
@@ -1529,20 +1553,20 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   /*landscape tablet*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031336}}
   #front-intro-block .love p {
     font-size: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031340}}
   #front-intro-block .love .quote blockquote {
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031345}}
   #front-intro-block .join p {
     margin: 1em 0;
     padding: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031351}}
   #front-intro-block .fix p {
     font-size: 1em;
     padding: .5em;
@@ -1550,22 +1574,22 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   /*portrait tablet*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031362}}
   #block-block-58 .block-inner {
     text-align: center;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031367}}
   #front-intro-block {
     max-width: 40em;
     display: inline-block;
     height: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031370}}
   #front-intro-block .titlefooter {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031373}}
   #front-intro-block h2 {
     position: relative;
     padding: 0;
@@ -1577,7 +1601,7 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
     margin-bottom: .35em;
     margin-top: .35em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031383}}
   #front-intro-block .third {
     display: block;
     float: none;
@@ -1585,33 +1609,33 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
     height: auto;
     margin: .5em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031389}}
   #front-intro-block .third .third-inner {
     margin-top: 1em;
     padding-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031395}}
   #front-intro-block .love img {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031396}}
   #front-intro-block .love h2 {
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031398}}
   #front-intro-block .love p {
     text-align: center;
     font-size: 1em;
     display: inline-block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031403}}
   #front-intro-block .love .quote {
     text-align: center;
     margin-left: 0;
     position: relative;
     display: inline-block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031406}}
   #front-intro-block .love .quote blockquote:before {
     content: "\201C";
     font-size: 3em;
@@ -1619,20 +1643,20 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
     position: relative;
     top: 0.45em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031416}}
   #front-intro-block .join h2 {
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031417}}
   #front-intro-block .join p {
     padding: 0.2em;
     display: inline-block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031406}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031423}}
   #front-intro-block .fix h2 {
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031424}}
   #front-intro-block .fix p {
     text-align: left;
     font-size: 1em;
@@ -1641,22 +1665,22 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
 }
 @media only screen and (max-width: 480px) {
   /*phone*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031434}}
   #block-block-58 .block-inner {
     text-align: center;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031439}}
   #front-intro-block {
     max-width: 40em;
     display: inline-block;
     height: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031442}}
   #front-intro-block .titlefooter {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031445}}
   #front-intro-block h2 {
     position: relative;
     padding: 0;
@@ -1668,7 +1692,7 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
     margin-bottom: .35em;
     margin-top: .35em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031455}}
   #front-intro-block .third {
     display: block;
     float: none;
@@ -1676,33 +1700,33 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
     height: auto;
     margin: .5em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031461}}
   #front-intro-block .third .third-inner {
     padding-left: 0;
     margin: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031446}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031463}}
   #front-intro-block .love img {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031464}}
   #front-intro-block .love h2 {
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031449}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031466}}
   #front-intro-block .love p {
     text-align: center;
     font-size: 1em;
     display: inline-block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031471}}
   #front-intro-block .love .quote {
     text-align: center;
     margin-left: 0;
     position: relative;
     display: inline-block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031474}}
   #front-intro-block .love .quote blockquote:before {
     content: "\201C";
     font-size: 3em;
@@ -1710,32 +1734,32 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
     position: relative;
     top: 0.45em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031467}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031484}}
   #front-intro-block .join h2 {
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031468}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031485}}
   #front-intro-block .join p {
     padding: 0.2em;
     display: inline-block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031491}}
   #front-intro-block .fix h2 {
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031475}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031492}}
   #front-intro-block .fix p {
     text-align: left;
     font-size: 1em;
     padding-top: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031484}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031501}}
 .region-secondary-content {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031487}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031504}}
 #front-intro-block:before, #front-intro-block:after {
   position: absolute;
   z-index: -2;
@@ -1743,7 +1767,7 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
 }
 
 /*drop shadow*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031505}}
 #front-intro-block:before {
   top: 1px;
   bottom: 0;
@@ -1757,13 +1781,13 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
 }
 
 /*drop shadow*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031510}}
 #front-intro-block:before {
   top: 20%;
 }
 
 /*drop shadow*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031495}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031512}}
 .front-button {
   -moz-box-shadow: inset 0px 1px 0px 0px #f29c93;
   -webkit-box-shadow: inset 0px 1px 0px 0px #f29c93;
@@ -1789,7 +1813,7 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   margin: 0 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031519}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031536}}
 .front-button:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00));
   background: -moz-linear-gradient(center top, #ce0100 5%, #fe1a00 100%);
@@ -1797,23 +1821,23 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   background-color: #ce0100;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031541}}
 .front-button:active {
   position: relative;
   top: 1px;
 }
 
 /*social media*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031548}}
 #block-block-60 {
   float: right;
   margin: .5em 0 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031534}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031551}}
 #block-block-60 .block-inner {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031537}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031554}}
 #block-block-60 .block-title {
   position: absolute;
   top: -99999em;
@@ -1822,27 +1846,27 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   overflow: hidden;
   outline: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031538}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031555}}
 #block-block-60 .content {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031560}}
 #block-block-60 .content #social-links {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031546}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031563}}
 #block-block-60 .content #social-links img.for-css-replacement {
   border: 0 none;
   height: 45px;
   width: 45px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031551}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031568}}
 #block-block-60 .content #social-links .button-label {
   left: -9999px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031555}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031572}}
 #block-block-60 .content #social-links a {
   background-image: url("/sites/all/themes/ftw/images/socialbuttons.png");
   border: 0 none;
@@ -1850,34 +1874,34 @@ button:active, input[type="reset"]:active, input[type="button"]:active, input[ty
   line-height: 0;
   transition: all 0s linear 0s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031563}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031580}}
 #block-block-60 .content #social-links a.twitterbutton:link,
 #block-block-60 .content #social-links a.twitterbutton:visited {
   background-position: 0 -90px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031566}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031583}}
 #block-block-60 .content #social-links a.twitterbutton:hover {
   background-position: 0 -135px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031570}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031587}}
 #block-block-60 .content #social-links a.facebookbutton:link,
 #block-block-60 .content #social-links a.facebookbutton:visited {
   background-position: 0 -45px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031573}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031590}}
 #block-block-60 .content #social-links a.facebookbutton:hover {
   background-position: 0 0;
 }
 
 /*twitter feed overrides*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031599}}
 .tweet .e-entry-title {
   font-size: 1.25em;
   line-height: 1.5em;
 }
 
 /*front page report form*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031588}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031605}}
 body.front #main-content {
   border: none;
   background: #fff;
@@ -1886,13 +1910,13 @@ body.front #main-content {
   /*drop shadow*/
   /*drop shadow*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031592}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031609}}
 body.front #main-content .inner:before, body.front #main-content .inner:after {
   position: inherit;
   z-index: auto;
   content: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031593}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031610}}
 body.front #main-content .inner:before {
   top: auto;
   bottom: auto;
@@ -1903,39 +1927,39 @@ body.front #main-content .inner:before {
   box-shadow: none;
   -moz-border-radius: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031598}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031615}}
 body.front #main-content .inner:before {
   top: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031600}}
-body.front #main-content header h1 {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #544ce5), color-stop(1, #4e40c8));
-  background: -moz-linear-gradient(center top, #544ce5 5%, #4e40c8 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#544ce5', endColorstr='#4e40c8');
-  background-color: #e60d00;
-  border: none;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031617}}
+body.front #main-content #main-content-header {
+  background: -moz-linear-gradient(center top, #ffebed 5%, #f2dde0 100%) repeat scroll 0 0 #e60d00;
+  border: medium none;
   border-radius: 0.75em;
-  box-shadow: 0 0px 0 0 #F29C93 inset;
-  color: #FFFFFF;
+  box-shadow: 0 0 0 0 #F29C93 inset;
+  color: #000000;
   display: block;
   font-style: normal;
   font-weight: bold;
   margin: 0 auto;
-  padding: .5em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
   text-align: center;
   text-decoration: none;
   text-indent: 0;
-  text-shadow: 1px 2px 0 #544ce5;
-  font-size: 1.4em;
-  text-align: center;
+  text-shadow: 1px 2px 0 #F2DDE0;
+  z-index: 4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031622}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031635}}
+body.front #main-content header h1 {
+  font-size: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031640}}
 body.front #main-content #content {
   display: inline-block;
   position: relative;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031626}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031644}}
 body.front #main-content #content #formbackground {
   background: url("../../../../default/files/frontformbackground.png");
   background-size: 100%;
@@ -1946,26 +1970,26 @@ body.front #main-content #content #formbackground {
   left: 0;
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031635}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031653}}
 body.front #main-content #content #formbackground #report-form {
   width: 70%;
   margin: 0 15%;
   padding-top: 19%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031639}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031657}}
 body.front #main-content #content #formbackground #report-form label {
   text-align: center;
   margin: .2em auto;
   display: block;
   font-size: 1.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031645}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031663}}
 body.front #main-content #content #formbackground #report-form .form-item {
   margin: 0 auto;
   display: block;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031649}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031667}}
 body.front #main-content #content #formbackground #report-form .form-item #edit-field-report-url, body.front #main-content #content #formbackground #report-form .form-item #edit-field-report-body {
   background-color: #FFFFFF;
   border: 1px solid #911F1C;
@@ -1974,33 +1998,170 @@ body.front #main-content #content #formbackground #report-form .form-item #edit-
   width: 96%;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031676}}
 body.front #main-content #content #formbackground #report-form .form-item-field-report-body #edit-field-report-body {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031661}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031679}}
 body.front #main-content #content #formbackground #report-form .grippie {
   width: 99%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031662}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031680}}
 body.front #main-content #content #formbackground #report-form .form-item-field-report-body {
   margin: 0 10%;
   width: 80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031665}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031683}}
 body.front #main-content #content #formbackground #report-form #edit-submit {
   margin: 10px auto;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031673}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031691}}
 body.front #main-content #content:after {
   content: '';
   display: block;
   margin-top: 90%;
 }
 
-/*report via tweet*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031683}}
-#block-block-62 {
+/*tweets*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031702}}
+#block-views-tweets-block ul {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031704}}
+#block-views-tweets-block ul li {
+  margin: 0 0 0.5em 0;
+  padding: 0 0 .5em 0;
+  border-bottom: 3px solid white;
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031709}}
+#block-views-tweets-block ul li .views-field-created-time {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031714}}
+#block-views-tweets-block ul li .views-field-favorite-link {
   display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031717}}
+#block-views-tweets-block ul li .views-field-reply-link {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031719}}
+#block-views-tweets-block ul li .views-field-retweet-link {
+  display: inline-block;
+}
+
+/*current count*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031728}}
+#block-block-65 dl {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031730}}
+#block-block-65 dl dt {
+  float: left;
+  clear: left;
+  width: 3.2em;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031733}}
+#block-block-65 dl dt:after {
+  content: ":";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031734}}
+#block-block-65 dl dd {
+  margin: 0 0 0 3.1em;
+  padding: 0;
+}
+
+/*icons*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031741}}
+#block-block-61 h2:before {
+  content: url("../icons/forum-small.png");
+  margin: 0 0 10px 10px;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031749}}
+#block-views-news-feed-block h2:before {
+  content: url("../icons/news-small.png");
+  margin: 0 0 10px 10px;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031757}}
+#block-block-62 h2:before {
+  content: url("../icons/twitter.png");
+  margin: 0 0 0 .5em;
+  position: relative;
+  top: 0px;
+  right: 10px;
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031765}}
+#block-block-63 h2:before {
+  content: url("../icons/click2fix-small.png");
+  margin: 0 0 10px 10px;
+  position: relative;
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031771}}
+#block-block-64 h2:before {
+  content: url("../icons/email-small.png");
+  margin: 0 0 10px 10px;
+  position: relative;
+  float: right;
+}
+
+/*#block-block-65 h2:before{
+  content: url("../icons/stats-small.png");
+  margin: 0 0 10px 10px;
+  position: relative;
+    float: right;
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031783}}
+#block-block-66 h2:before {
+  content: url("../icons/companies-small.png");
+  margin: 0 0 10px 10px;
+  position: relative;
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031789}}
+#block-block-67 h2:before {
+  content: url("../icons/case-studies-small.png");
+  margin: 0 0 10px 10px;
+  position: relative;
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031795}}
+#block-block-68 h2:before {
+  content: url("../icons/training-small.png");
+  margin: 0 0 10px 10px;
+  position: relative;
+  float: right;
+}
+
+/*header h1:before{
+      content: url("../icons/arrow.png");
+      float: right;
+      margin: 0;
+      position: absolute;
+      right: -25px;
+      top: -29px;
+      z-index: 100;
+    }*/
+/*for CSUN*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/FTW\/ftw-site\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\000031812}}
+body.front #main-content #content #formbackground #report-form .form-item-field-report-mail {
+  display: none;
 }
