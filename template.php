@@ -92,3 +92,12 @@ function ftwv1_preprocess_block(&$vars) {
 function ftwv1_process_block(&$vars) {
 }
 // */
+
+function ftw_process_page(&$variables) {
+  // Add theme suggestion for all content types
+  if (isset($variables['node'])) {
+    if ($variables['node']->type != '') {
+    $variables['theme_hook_suggestions'][] = 'page__node__' . $variables['node']->type;
+    }
+  }
+}

@@ -1224,7 +1224,8 @@ display: none;}
     }
     width:37%;
     h2{
-    text-align: right;}
+    text-align: right;
+   padding-right: 0.08em;}
     .stephenfry{
       width: 8em;
       float:left;
@@ -1615,7 +1616,11 @@ body.front{
     .inner:before { top: auto; }   /*drop shadow*/
 
     #main-content-header{
-    background: -moz-linear-gradient(center top , #FFEBED 5%, #F2DDE0 100%) repeat scroll 0 0 #E60D00;
+
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FFEBED), color-stop(1, #F2DDE0) );
+    background: -moz-linear-gradient(center top , #FFEBED 5%, #F2DDE0 100%) repeat scroll 0 0 #F2DDE0;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEBED', endColorstr='#F2DDE0');
+    background-color:#FFEBED;
     border: medium none;
     border-radius: 0.75em;
     box-shadow: 0 0 0 0 #F29C93 inset;
@@ -1628,7 +1633,6 @@ body.front{
     text-align: center;
     text-decoration: none;
     text-indent: 0;
-    text-shadow: 1px 2px 0 #F2DDE0;
     z-index: 4;
     }
     
@@ -1646,10 +1650,10 @@ body.front{
       background-size: 100%;
       background-repeat: no-repeat;
       position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
         #report-form{
           width: 70%;
           margin: 0 15%;
@@ -1692,7 +1696,7 @@ body.front{
     content: '';
     display: block;
     margin-top: 90%;
-}
+    }
     
   }
 }
@@ -1746,14 +1750,14 @@ body.front{
   right: 0px;
     float: right;
 }
-#block-views-news-feed-block h2:before{
+/*#block-views-news-feed-block h2:before{
   content: url("../icons/news-small.png");
   margin: 0 0 10px 10px;
   position: relative;
   top: 0px;
   right: 0px;
     float: right;
-}
+}*/
 #block-block-62 h2:before/*, #block-views-tweets-block h2:before*/{
   content: url("../icons/twitter.png");
   margin: 0 0 0 .5em;
@@ -1798,6 +1802,12 @@ body.front{
   position: relative;
     float: right;
 }
+#block-block-69 h2:before{
+  content: url("../icons/goldbadge.png");
+  margin: 0 0 10px 10px;
+  position: relative;
+    float: right;
+}
 /*header h1:before{
       content: url("../icons/arrow.png");
       float: right;
@@ -1811,4 +1821,18 @@ body.front{
 /*for CSUN*/
 body.front #main-content #content #formbackground #report-form .form-item-field-report-mail{
   display: none;
+}
+
+/*node-types*/
+.node-type-case-study header .icon{
+  margin: 0 0 10px 10px;
+  position: relative;
+    float: right;
+}
+#main-content-header p{
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+
 }
